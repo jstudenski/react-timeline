@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">JS</header>
+        <header className="App-header">J</header>
         <Timeline groups={groups}
           items={items}
           defaultTimeStart={moment().add(-12, 'hour')}
