@@ -23,8 +23,7 @@ class App extends Component {
         <Timeline groups={groups}
           items={items}
           defaultTimeStart={moment().add(-12, 'hour')}
-          defaultTimeEnd={moment().add(12, 'hour')}
-        />
+          defaultTimeEnd={moment().add(12, 'hour')}/>
       </div>
     );
   }
